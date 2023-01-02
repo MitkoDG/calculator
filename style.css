@@ -2,5 +2,39 @@ html {
   box-sizing: border-box;
 }
 
+.container {
+  background-color: antiquewhite;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.display .result {
+  height: 30px;
+  background-color: #e2e1da;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #1100ff;
+  border-color: #e2e1da;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #656562;
+}
+
 
 
